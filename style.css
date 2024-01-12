@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+} 
+.medal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medal img {
+  width: 50px;
+  height: 50px;
+}
+
+.medal h2 {
+  margin: 10px 0;
+}
+.silver-contact-us {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 20px;
+    color: #333;
+}
+
+.silver-contact-us h1 {
+    font-size: 32px;
+    color: #666;
+}
+
+.silver-contact-us h2 {
+    font-size: 24px;
+    color: #999;
+}
+
+.silver-contact-us p {
+    font-size: 16px;
+    color: #666;
+}
+.image-container {
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+
+.image-container1 img {
+ max-width: 100%;
+ height: auto;
+}
+
+
+.image-container1 {
+    position: relative;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+.button {
+  background-color: #2B3499;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
